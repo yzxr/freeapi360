@@ -47,14 +47,21 @@ npm run dev:provider
 npm run dev:consumer
 ```
 
+## 🌐 域名规划
+
+| 平台 | 域名 | 用途 |
+|------|------|------|
+| **API 托管站** | `freeapi.cc.cd` | Provider 平台 - API 密钥托管、账号管理 |
+| **API 购买站** | `freecode.cc.cd` | Consumer 平台 - API 购买、客户密钥、推荐返佣 |
+
 ## 📦 技术栈
 
-### 托管平台 (Provider)
+### API 托管站 (freeapi.cc.cd)
 - **前端**：Next.js 14 + Tailwind CSS
 - **Web3**：Privy（身份验证）+ Solana Web3
 - **部署**：Vercel / Cloudflare Pages
 
-### 采购平台 (Consumer)
+### API 购买站 (freecode.cc.cd)
 - **前端**：Next.js 14 + Tailwind CSS
 - **后端**：Supabase（Auth + DB + Edge Functions）
 - **部署**：Vercel / Cloudflare Pages
