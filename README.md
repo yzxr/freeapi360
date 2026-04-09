@@ -2,6 +2,12 @@
 
 > 复刻 DeRouter 双平台模式：托管平台 + 采购平台
 
+**GitHub**: https://github.com/yzxr/freeapi360
+
+**域名**：
+- API 托管站：https://freeapi.cc.cd
+- API 购买站：https://freecode.cc.cd
+
 ## 📋 项目结构
 
 ```
